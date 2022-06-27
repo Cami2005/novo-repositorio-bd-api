@@ -14,7 +14,7 @@ export async function ListarTodos() {
     const comando= 
     `select id_heroi        id,
             nm_heroi		nome,
-            ds_superpoder	    poder,
+            ds_superpoder	superpoder,
             bt_voa			voa
     from    tb_heroi`;
     

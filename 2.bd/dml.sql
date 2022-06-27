@@ -5,6 +5,6 @@ values ('Hulk', 'Força', false);
 
 select id_heroi id,
 		nm_heroi		nome,
-		ds_poder	poder,
+		ds_superpoder	superpoder,
 		bt_voa			voa
         from tb_heroi;
