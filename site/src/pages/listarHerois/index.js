@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react"
 import { Listar } from "../../API/heroiAPI";
+import './index.css';
+
 
 export default function Index(){
     const[heroi, setHeroi] = useState([]);
@@ -14,8 +16,8 @@ export default function Index(){
     } , [])
 
     return(
-        <main>
-            <table>
+        <main className="container2">
+            <table className="caixa2">
                 <thead>
                     <tr>
                         <th>ID</th>

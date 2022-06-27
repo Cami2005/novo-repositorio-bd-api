@@ -1,0 +1,33 @@
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    background-color: #ca1a1a;
+    padding: 28%;
+}
+
+.caixa{
+    box-sizing: border-box;
+    background-color: #fffa95;
+    padding: 3em;
+    border-radius: 1em;
+
+    position: relative;
+    bottom: 3em;
+}
+
+.div1 {
+    margin-bottom: 1em;
+}
+
+.botao{
+   
+    padding: 10px 15px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 15px;
+    margin-left: 8em;
+    
+}
+

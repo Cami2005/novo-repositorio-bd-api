@@ -1,0 +1,19 @@
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    background-color: #000000;
+    padding: 29.5%;
+}
+
+.caixa2{
+    box-sizing: border-box;
+    background-color: #e4d61b;
+    padding: 3em;
+    border-radius: 1em;
+
+    position: relative;
+    bottom: 3em;
+}
+
